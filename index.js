@@ -22,4 +22,4 @@ app.use('/dashboard',dashRouter)
 //     })
 // })
 
-app.listen(8000,() => console.log("App is running in 8000")) 
+app.listen(8000,() => console.log(`App is running in ${PORT}`)) 
