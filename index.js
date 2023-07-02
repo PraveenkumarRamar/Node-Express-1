@@ -4,6 +4,7 @@ const app = express();
 const indexRouter = require('./routes/index-r')
 const userRouter = require('./routes/user')
 const dashRouter = require('./routes/dashboard')
+const PORT  = process.env.PORT || 8000
 
 app.use(express.json()) // to parse the body like string to proper json
 app.use('/',indexRouter)
